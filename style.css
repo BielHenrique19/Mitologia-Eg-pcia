@@ -1,0 +1,79 @@
+/* Reset básico */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Georgia", serif;
+    background: linear-gradient(to bottom, #f4e2d8, #e4c9a7);
+    color: #4a3728;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #a67c52;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+    border-bottom: 4px solid #8b5e34;
+}
+
+header .logo h1 {
+    font-size: 2.5rem;
+    color: #ffd700;
+}
+
+header nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #ffedc1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Seções */
+.section {
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 1px solid #d3b893;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #8b5e34;
+}
+
+/* Rodapé */
+footer {
+    background-color: #a67c52;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-top: 4px solid #8b5e34;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #ffe4b5;
+}
+
+.galinha{
+    width: 30%;
+}
